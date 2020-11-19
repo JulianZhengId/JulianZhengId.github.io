@@ -13,8 +13,8 @@
 
     <title>My Portfolio</title>
   </head>
-  <body>
 
+  <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#home">Julian</a>
@@ -41,9 +41,9 @@
     <div class="jumbotron" id="home">
       <div class="container">
         <div class="text-center">
-          <img src="img/Pasfoto 2.JPG" class="rounded-circle img-thumbnail">
+          <img src="img/Pasfoto 512x512.jpg" class="rounded-circle img-thumbnail"> 
           <h1 class="display-4">Julian</h1>
-          <h3 class="lead">Student | Programmer | Game Developer</h3>
+          <h2 class="lead">Student | Programmer | Game Developer</h2>
         </div>
       </div>
     </div>
@@ -59,7 +59,7 @@
         </div>
         <div class="row justify-content-center">
           <div class="col-md-5">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
+            <p>Student at <b>Technical University of Munich</b> with major study <i>Computer Science : Games Engineering.</i></p>
           </div>
           <div class="col-md-5">
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Natus, molestiae sunt doloribus error ullam expedita cumque blanditiis quas vero, qui, consectetur modi possimus. Consequuntur optio ad quae possimus, debitis earum.</p>
@@ -151,24 +151,36 @@
           <div class="col-lg-4">
             <div class="card bg-primary text-white mb-4 text-center">
               <div class="card-body">
-                <h5 class="card-title">Contact Me</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <h5 class="card-title"><b>Contact Me</b></h5>
+                  <div class="row">
+                    <div class="col">
+                      <p class="card-text"><a href="mailto:julianjulianjulianid@gmail.com" style="color:white">Email</a></p>
+                      <p class="card-text"><a href="https://github.com/JulianZhengId" style="color:white">Instagram</a></p>
+                      <p class="card-text"></p><a href="https://line.me/R/ti/p/julian_zheng" style="color:white">LINE</a>
+                    </div>
+                    <div class="col">
+                      <p class="card-text"><a href="mailto:julianjulianjulianid@gmail.com" style="color:white">Facebook</a></p>
+                      <p class="card-text"><a href="https://github.com/JulianZhengId" style="color:white">GitHub</a></p>
+                      <p class="card-text"><a href="https://wa.link/s87h24" style="color:white">WhatsApp</a></p>
+                    </div>
+                  </div>
+
               </div>
             </div>
             
             <ul class="list-group mb-4">
               <li class="list-group-item"><h3>Location</h3></li>
-              <li class="list-group-item">Georgenschwaigstrasse 47, München</li>
-              <li class="list-group-item">Bayern, Deutschland</li>
+              <li class="list-group-item">Georgenschwaigstrasse 47, 80807 Munich</li>
+              <li class="list-group-item">Bayern, Germany</li>
             </ul>
           </div>
 
           <div class="col-lg-6">
             
-            <form>
+            <form action="mailto:julianjulianjulianid@gmail.com" method="POST" enctype="text/plain">
               <div class="form-group">
-                <label for="nama">Nama</label>
-                <input type="text" class="form-control" id="nama">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name">
               </div>
               <div class="form-group">
                 <label for="email">Email</label>
@@ -183,7 +195,7 @@
                 <textarea class="form-control" id="message" rows="3"></textarea>
               </div>
               <div class="form-group">
-                <button type="button" class="btn btn-primary">Send Message</button>
+                <button type="button" class="btn btn-primary" value="Submit">Send Message</button>
               </div>
             </form>
 

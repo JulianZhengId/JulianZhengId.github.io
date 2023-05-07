@@ -20,6 +20,10 @@ footer {
     position: relative;
 }
 
+.card {
+    border-width: 3px;
+}
+
 .game {
     margin-bottom: 40px;
 }
